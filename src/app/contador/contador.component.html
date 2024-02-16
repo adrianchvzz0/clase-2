@@ -1,7 +1,10 @@
+
 <p>{{text}}</p>
 <div>
     <h2>Contador: {{ contador }}</h2>
-    <button (click)="increment()">Incrementar</button>
-    <button (click)="decrement()">Decrementar</button>
-    <button (click)="reset()">Resetear</button>
-  </div>
+   
+    <button class="btn btn-dark button" (click)=increment()>Increment</button>
+    <button class="btn btn-warning button" (click)=decrement()>Decrement</button>
+    <button class="btn btn-dark button" (click)=reset()>Reset</button>
+
+</div>
